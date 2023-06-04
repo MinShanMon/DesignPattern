@@ -13,11 +13,14 @@ public class Program
         //AbstractFactory
         IAbstractFactory factory1 = new ConcreteFactory1();
         IAbstractFactory factory2 = new ConcreteFactory2();
+        IAbstractFactory factory3 = new ConcreteFactory3();
 
         DesignPattern.AbstractFactory.Client clientAbstractFactory1 = new DesignPattern.AbstractFactory.Client(factory1);
         DesignPattern.AbstractFactory.Client cleintAbstractFactory2 = new DesignPattern.AbstractFactory.Client(factory2);
+        DesignPattern.AbstractFactory.Client cleintAbstractFactory3 = new DesignPattern.AbstractFactory.Client(factory3);
 
         clientAbstractFactory1.UseProducts();
         cleintAbstractFactory2.UseProducts();
+        cleintAbstractFactory3.UseProducts();
     }
 }

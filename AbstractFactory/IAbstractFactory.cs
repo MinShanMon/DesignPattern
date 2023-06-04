@@ -9,5 +9,6 @@ namespace DesignPattern.AbstractFactory
     {
         IAbstractProductA CreateProductA();
         IAbstractProductB CreateProductB();
+        IAbstractProductC CreateProductC();
     }
 }

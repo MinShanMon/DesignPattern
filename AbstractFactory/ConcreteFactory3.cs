@@ -5,21 +5,22 @@ using System.Threading.Tasks;
 
 namespace DesignPattern.AbstractFactory
 {
-    public class ConcreteFactory2 : IAbstractFactory
+    public class ConcreteFactory3 : IAbstractFactory
     {
         public IAbstractProductA CreateProductA()
         {
-            return new ConcreteProductA2();
+            return new ConcreteProductA3();
         }
 
         public IAbstractProductB CreateProductB()
         {
-            return new ConcreteProductB2();
+            return new ConcreteProductB3();
         }
 
         public IAbstractProductC CreateProductC()
         {
-            return new ConcreteProductC2();
+            return new ConcreteProductC3();
         }
+        
     }
 }
