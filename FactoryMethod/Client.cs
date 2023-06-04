@@ -13,6 +13,9 @@ namespace DesignPattern.FactoryMethod
 
             Creator creatorB = new ConcreteCreatorB();
             creatorB.Operation();
+
+            Creator creatorC = new ConcreteCreatorC();
+            creatorC.Operation();
         }
     }
 }
