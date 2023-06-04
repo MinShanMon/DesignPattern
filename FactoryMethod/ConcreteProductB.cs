@@ -7,7 +7,7 @@ namespace DesignPattern.FactoryMethod
 {
     public class ConcreteProductB : IProduct
     {
-        public void use()
+        public void Use()
         {
             Console.WriteLine("Using ConcreteProductB");
         }

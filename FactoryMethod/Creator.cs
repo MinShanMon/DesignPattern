@@ -11,7 +11,7 @@ namespace DesignPattern.FactoryMethod
 
         public void Operation(){
             IProduct product = FactoryMethod();
-            product.use();
+            product.Use();
         }   
     }
 }

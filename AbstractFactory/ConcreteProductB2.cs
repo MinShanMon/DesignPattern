@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DesignPattern.FactoryMethod
+namespace DesignPattern.AbstractFactory
 {
-    public class ConcreteProductA : IProduct
+    public class ConcreteProductB2 : IAbstractProductB
     {
         public void Use()
         {
-            Console.WriteLine("Using ConcreteProductA");
+            Console.WriteLine("Using ConcreteProductB2");
         }
     }
 }
